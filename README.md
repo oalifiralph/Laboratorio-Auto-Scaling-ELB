@@ -57,26 +57,26 @@ Uma plataforma de streaming de vídeos está expandindo sua base de usuários e 
 
 2️⃣. No menu de pesquisa, digite **VPC** e selecione o serviço.
 
-<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ALB/blob/main/VPC/VPC-Default.png?raw=true" width="1000" alt="VPC">
+<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/VPC/VPC-Default.png?raw=true" width="1000" alt="VPC">
 
 3️⃣. Verifique a sua VPC.
 
 4️⃣. Anote o **ID da VPC** (`vpc-xxxxxxxxxxxxxxxxx`).
 
-<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ALB/blob/main/VPC/VPC-Route-Tables.png?raw=true" width="1000" alt="VPC">
+<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/VPC/VPC-Route-Tables.png?raw=true" width="1000" alt="VPC">
 
 5️⃣. Verifique as **subnets** disponíveis e anote os IDs (`subnet-xxxxxxxxxxxxxxxxx`).
 
 6️⃣. Revise as anotações e siga o fluxo das etapas
 
-<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ALB/blob/main/Note-pad.png?raw=true" width="1000" alt="NotePad">
+<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/Note-pad.png?raw=true" width="1000" alt="NotePad">
 
 ---
 
 ## 🔐 Configurações do Security Group
 1️⃣. Volte ao **Console AWS** e selecione o serviço **Security Groups > EC2 feature**.
 
-<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/ASG-Config.md/SecurityGroup.png?raw=true">
+<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/ASG-Config.md/SecurityGroup-.png?raw=true">
 
 2️⃣. Crie um novo Security Group:
    - **Nome:** `SG-Lab-SeuNome`
@@ -164,10 +164,10 @@ Uma plataforma de streaming de vídeos está expandindo sua base de usuários e 
 2. Atualize a página e veja que a instância EC2 muda (balanceamento funcionando!).
 3. Monitore o **Auto Scaling Group** e verifique a criação automática de novas instâncias.
 
-📸 **Print do Teste:**
+📸 **Prints do Teste:**
 
-<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/EC2/Instance_.png?raw=true" width="500" alt="aws">-
-<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/EC2/Instance-.png?raw=true" width="500" alt="aws">-
+<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/Elastic%20Compute%20Cloud/Instance-.png?raw=true" width="1000" alt="aws">-
+<img src="https://github.com/oalifiralph/Laboratorio-Auto-Scaling-ELB/blob/main/Elastic%20Compute%20Cloud/Instance_.png?raw=true" width="1000" alt="aws">-
 
 ---
 
